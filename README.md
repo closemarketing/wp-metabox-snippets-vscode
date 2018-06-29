@@ -1,19 +1,12 @@
-# The ultimate WordPress snippet collection for Visual Studio Code
+# Snippets for Visual Studio Code : MetaBox.io
 
-*	Snippets for every WordPress function, class and constant, with argument type hints and brief descriptions.
-*	Easy function completion with tab stops in all the right places.
-*	WordPress API Support: **4.9.6**
-	-	**3,057** Functions
-	-	**376** Classes
-	-	**516** Constants
-*	Docs: [wordpresstoolbox.io/vscode](https://www.wordpresstoolbox.io/vscode/)
-*	Love this extension? More great tools for WordPress developers:
-	-	[Plugin Explorer](https://www.wordpresstoolbox.io/plugins/) - You'll never use the official WordPress plugin directory again. Instantly see the most popular/best-rated plugins for a given term. Filter results by ratings, popularity and more.
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/anthonydiametrix.ACF-Snippet.svg)](https://marketplace.visualstudio.com/items?itemName=anthonydiametrix.ACF-Snippet)
+[![Badge for version for Visual Studio Code extension anthonydiametrix.ACF-Snippet](https://vsmarketplacebadge.apphb.com/version/anthonydiametrix.ACF-Snippet.svg)](https://marketplace.visualstudio.com/items?itemName=anthonydiametrix.ACF-Snippet)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/hubsta/acf-snippet-vsc/graphs/commit-activity)
+[![GitHub contributors](https://img.shields.io/github/contributors/hubsta/wp-metabox-snippets-vscode.svg)](https://GitHub.com/hubsta/wp-metabox-snippets-vscode/graphs/contributors/)
+
 
 ## Requirements
 
 These snippets are bound to the PHP language context. Your cursor will need to be inside a set of PHP tags.
-
-## Problems? Comments?
-
-Reach me on Twitter: [@wordpresstoolbx](https://twitter.com/wordpresstoolbx)
