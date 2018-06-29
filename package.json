@@ -1,0 +1,40 @@
+{
+	"name": "metabox-toolbox",
+	"displayName": "MetaBox.io WordPress Toolbox",
+	"description": "All functions and fields for MetaBox.io as snippets for Visual Studio",
+	"version": "1.0.0",
+	"publisher": "closemarketing",
+	"engines": {
+		"vscode": "^1.19.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"keywords": [
+		"wordpress", "metabox"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "php",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"icon": "images/wp-metabox-icon.png",
+	"license": "MIT",
+	"homepage": "https://www.wordpresstoolbox.io/vscode",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/closemarketing/wp-metabox-snippets-vscode"
+	},
+	"bugs": {
+		"url": "https://github.com/closemarketing/wp-metabox-snippets-vscode/issues",
+		"email": "david@closemarketing.es"
+	},
+	"__metadata": {
+		"id": "",
+		"publisherId": "",
+		"publisherDisplayName": ""
+	}
+}
