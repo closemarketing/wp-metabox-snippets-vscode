@@ -21,9 +21,9 @@
 			}
 		]
 	},
-	"icon": "images/wp-metabox-icon.png",
+	"icon": "",
 	"license": "MIT",
-	"homepage": "https://www.wordpresstoolbox.io/vscode",
+	"homepage": "https://github.com/closemarketing/wp-metabox-snippets-vscode",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/closemarketing/wp-metabox-snippets-vscode"
