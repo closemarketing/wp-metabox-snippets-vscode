@@ -78,7 +78,7 @@
 			"}   "
 		]
 	},
-	"MetaBox | Adds field for Icon": {
+	"MetaBox | Adds Icon field": {
 		"prefix": "metaicon",
 		"body": [
 			"// ICON IMAGE ADVANCED",
@@ -92,7 +92,7 @@
 			"),"
 		]
 	},
-	"MetaBox | Adds field for Number": {
+	"MetaBox | Adds Number field": {
 		"prefix": "metanum",
 		"body": [
 			"// NUMBER",
@@ -105,7 +105,7 @@
 			"),"
 		]
 	},
-	"MetaBox | Campo selección": {
+	"MetaBox | Adds select field": {
 		"prefix": "metasel",
 		"body": [
 			"// SELECT BOX",
@@ -123,7 +123,7 @@
 			"),"
 		]
 	},
-	"MetaBox | Campo texto": {
+	"MetaBox | Adds text field": {
 		"prefix": "metatext",
 		"body": [
 			"// TEXT",
@@ -151,12 +151,12 @@
 			"),"
 		]
 	},
-	"MetaBox | Campos Dirección": {
+	"MetaBox | Adds Address field": {
 		"prefix": "metadir",
 		"body": [
 			"// TEXT",
 			"array(",
-			"\t'name'    => __('Dirección', 'clmkg'),",
+			"\t'name'    => __('Address', 'clmkg'),",
 			"\t'id'      => \"{\\$$prefix}dir1\",",
 			"\t'type'    => 'text',",
 			"\t'clone'   => false,",
@@ -164,7 +164,7 @@
 			"),",
 			"// TEXT",
 			"array(",
-			"\t'name'    => __('Dirección 2', 'clmkg'),",
+			"\t'name'    => __('Address 2', 'clmkg'),",
 			"\t'id'      => \"{\\$$prefix}dir2\",",
 			"\t'type'    => 'text',",
 			"\t'clone'   => false,",
@@ -172,24 +172,24 @@
 			"),",
 			"// TEXT",
 			"array(",
-			"\t'name'    => __('Codigo Postal', 'clmkg'),",
-			"\t'id'      => \"{\\$$prefix}cp\",",
+			"\t'name'    => __('ZIP', 'clmkg'),",
+			"\t'id'      => \"{\\$$prefix}zip\",",
 			"\t'type'    => 'text',",
 			"\t'clone'   => false,",
 			"\t'columns' => 3,",
 			"),",
 			"// TEXT",
 			"array(",
-			"\t'name'    => __('Ciudad', 'clmkg'),",
-			"\t'id'      => \"{\\$$prefix}ciudad\",",
+			"\t'name'    => __('City', 'clmkg'),",
+			"\t'id'      => \"{\\$$prefix}city\",",
 			"\t'type'    => 'text',",
 			"\t'clone'   => false,",
 			"\t'columns' => 3,",
 			"),",
 			"// TEXT",
 			"array(",
-			"\t'name'    => __('Provincia', 'clmkg'),",
-			"\t'id'      => \"{\\$$prefix}provincia\",",
+			"\t'name'    => __('State', 'clmkg'),",
+			"\t'id'      => \"{\\$$prefix}state\",",
 			"\t'type'    => 'text',",
 			"\t'clone'   => false,",
 			"\t'columns' => 3,",
@@ -206,7 +206,7 @@
 			"array(",
 			"\t'name'    => __('URL', 'your-prefix'),",
 			"\t'id'      => \"{\\$$prefix}url\",",
-			"\t'desc'    => __('Página Web', 'your-prefix'),",
+			"\t'desc'    => __('Web Page', 'your-prefix'),",
 			"\t'type'    => 'url',",
 			"\t'columns' => 3,",
 			"),",
@@ -214,13 +214,13 @@
 			"array(",
 			"\t'name'  => __('ID Google My Business', 'clmkg'),",
 			"\t'id'    => \"{\\$$prefix}gbusiness\",",
-			"\t'desc'  => '<a href=\"https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder?hl=es-419\" target=\"_blank\">Para generar ID</a>',",
+			"\t'desc'  => '<a href=\"https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder?hl=es-419\" target=\"_blank\">In order to Generate the ID</a>',",
 			"\t'type'  => 'text',",
 			"\t'clone' => false,",
 			"),"
 		]
 	},
-	"MetaBox | Campo selección formulario": {
+	"MetaBox | Get Select Field of actual Forms in Gravity Forms": {
 		"prefix": "metafor",
 		"body": [
 			"//* Gets the forms in array",
@@ -231,7 +231,7 @@
 			"endforeach;",
 			"",
 			"",
-			"// SELECT BOX FORMULARIOS",
+			"// SELECT BOX Forms",
 			"array(",
 			"\t'name'\t\t=> 'Selecciona Formulario',",
 			"\t'id'\t\t  => \"{\\$prefix}${1:slug}\",",
@@ -243,7 +243,7 @@
 			"),"
 		]
 	},
-	"MetaBox | Muestra galería imagenes": {
+	"MetaBox | Shows Gallery in public page": {
 		"prefix": "metsimg",
 		"body": [
 			"\\$images = rwmb_meta( '${1:meta_key}', 'size=${2:image_size}' ); ",
